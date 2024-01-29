@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QR Code Generator">
+    
+
+    <title>QR Code Generator</title>
+
+    <link rel = "icon" href ="img/logo.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/script.js" defer></script>
+    <!--
+    <script src="js/app.js" defer></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    -->
+
+</head>
+
+<body>
+    <div class="portal">
+        <div class="portal__wrapper background" id="particles-js">
+            <form action="#" class="portal__wrapper__form" >
+                <div class="portal__wrapper__form__wrapper">
+                    <div class="portal__wrapper__form__wrapper__title">
+                        <h1><span>QR Code</span> Generator</h1>
+                        <p>Paste a url or enter text to create QR code</p>
+                    </div>
+                    <div class="portal__wrapper__form__wrapper__field">
+                        <div class="portal__wrapper__form__wrapper__field__input form">
+                            <input type="text" id="studno" class="js-input" spellcheck="false">
+                            <label for="studno">Enter URL here</label>
+                        </div>
+                        <div class="portal__wrapper__form__wrapper__field__button form">
+                            <button>Generate QR Code</button>
+                        </div>
+                        <div class="qr-code">
+                            <img src="img/QR CODE.jpg" alt="qr-code">
+                        </div>
+                        <p id="terms">Made by <a href="https://github.com/itzjeth">JJ Jeth</a></p>
+                        <div class="portal__wrapper__form__wrapper__field__button__extra form">
+                            <button>Copy</button>
+                            <a href="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=test" download><button>Download</button></a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="portal__wrapper__hero">
+                <img src="img/jeth.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
